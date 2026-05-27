@@ -38,7 +38,7 @@ public abstract class Service {
     public int getRemainingQuotas() { return remainingQuotas; }
     public double getBasePrice() { return basePrice; }
     public ServiceStatus getStatus() { return status; }
-
+ // Setters para actualizar los cupos y el estado del servicio
     public void setRemainingQuotas(int remainingQuotas) { this.remainingQuotas = remainingQuotas; }
     public void setStatus(ServiceStatus status) { this.status = status; }
 
